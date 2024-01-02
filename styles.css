@@ -1,19 +1,27 @@
-/*basic styles for black background and crosshair cursor*/
-body{
-	background: #000;
-	margin: 0;
-	font-size: 16px;
-	font-family: Verdana;
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: Verdana;
+    background-image: url('img.jpg'); /* Replace 'img.jpg' with the correct filename */
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    height: 150vh; /* Ensure the body takes up the full viewport height */
+    color: #fff; /* Set text color to white for better visibility on a dark background */
 }
 
-h1{
-	pointer-events: none;
+h1 {
+    text-align: center;
+    padding: 50px;
+    margin-top: 0px; /* Adjust the margin to center the heading vertically */
 }
+
 
 #message{
 width: 100%;
 font-size: 2em;
-color: white;
+color: blue;
 text-align: center;
 position: absolute;
 top:20px;
